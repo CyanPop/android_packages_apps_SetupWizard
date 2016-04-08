@@ -5,8 +5,8 @@
 
     <string name="cyanpop_community">CyanPop Google Plus Community</string>
 
-    <string name="general_explanation" product="tablet">CyanPOP is a custom rom. Started on Moto G 2014 LTE,now we are supporting other device. <xliff:g id="name" example="CyanPop Google Plus Community">%s</xliff:g>.</string>
+    <string name="general_explanation" product="tablet"Cyanpop is a rom marshmallow based on android 6.0.1<xliff:g id="name" example="CyanPop Google Plus Community">%s</xliff:g>.</string>
 
-    <string name="general_explanation" product="default">CyanPOP is a custom rom. Started on Moto G 2014 LTE,now we are supporting other device. <xliff:g id="name" example="CyanPop Google Plus Community">%s</xliff:g>.</string>
+    <string name="general_explanation" product="default">Cyanpop is a rom marshmallow based on android 6.0.1<xliff:g id="name" example="CyanPop Google Plus Community">%s</xliff:g>.</string>
 
 </resources>

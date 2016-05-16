@@ -101,10 +101,10 @@ public class CyanogenSettingsPage extends SetupPage {
         /*final int defaultBrightness = context.getResources().getInteger(
                 com.android.internal.R.integer.config_buttonBrightnessSettingDefault);*/
 
-        /*Settings.Secure.putInt(context.getContentResolver(),
-                Settings.Secure.DEV_FORCE_SHOW_NAVBAR, enabled ? 1 : 0);
-        final CMHardwareManager hardware = CMHardwareManager.getInstance(context);
-        hardware.set(CMHardwareManager.FEATURE_KEY_DISABLE, enabled);*/
+        CMSettings.Global.putInt(context.getContentResolver(),
+                CMSettings.Global.DEV_FORCE_SHOW_NAVBAR, enabled ? 1 : 0);
+        CMHardwareManager hardware = CMHardwareManager.getInstance(context);
+        hardware.set(CMHardwareManager.FEATURE_KEY_DISABLE, enabled);
 
         /* Save/restore button timeouts to disable them in softkey mode */
         SharedPreferences.Editor editor = prefs.edit();

@@ -117,11 +117,6 @@ public class CMSetupWizardData extends AbstractSetupData {
                 otherSettingsPage.setHidden(!hidden);
             }
         }
-        CyanogenServicesPage cyanogenServicesPage =
-                (CyanogenServicesPage) getPage(CyanogenServicesPage.TAG);
-        if (cyanogenServicesPage != null) {
-            cyanogenServicesPage.setHidden(!isConnected);
-        }
     }
 
     private void showHideSimMissingPage() {
